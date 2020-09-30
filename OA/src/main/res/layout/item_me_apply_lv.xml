@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_line_divider_bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/dm030"
+  >
+
+    <TextView
+        android:id="@+id/apply_item_title_tv"
+        style="@style/px28_212121_bold"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/dm020"
+        android:drawableRight="@drawable/ic_next"
+        android:ellipsize="end"
+        android:singleLine="true" />
+    <TextView
+        android:id="@+id/apply_item_time_tv"
+        style="@style/px24_a5a5a5"
+        android:paddingTop="@dimen/dm005"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/apply_item_type_tv"
+        style="@style/px26_999"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dm020" />
+
+    <TextView
+        android:id="@+id/apply_item_start_time_tv"
+        style="@style/px26_999"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dm007" />
+
+    <TextView
+        android:id="@+id/apply_item_end_time_tv"
+        style="@style/px26_999"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dm007" />
+
+    <TextView
+        android:id="@+id/apply_item_status_tv"
+        style="@style/px26_999"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dm007" />
+</LinearLayout>
